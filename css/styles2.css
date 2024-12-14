@@ -10,12 +10,7 @@
   --font-primary: "mandrel-condensed", sans-serif;
   --font-secondary: "M PLUS Rounded 1c", sans-serif;
 }
-.text-content-arquitecto h1 {
-  font-family: var(--font-primary);
-  color: var(--color-secondary);
-  font-size: 4rem;
-  font-weight: 200;
-}
+
 /* Reset and Base Styles */
 * {
   margin: 0;
@@ -152,7 +147,6 @@ main {
   margin-bottom: 0.5rem;
   color: var(--color-secondary);
   text-align: center;
-
 }
 
 .section-info p {
@@ -161,7 +155,6 @@ main {
   margin: 0;
   color: var(--color-secondary);
   text-align: center;
-
 }
 
 /* Responsive Design */
@@ -171,8 +164,8 @@ main {
     gap: 2rem;
     max-width: 900px;
     padding: 2rem;
-
   }
+
   .text-content-arquitecto h1 {
     font-size: 4rem;
   }
@@ -224,7 +217,6 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     padding: 1rem;
-
   }
 
   .section-number {
@@ -238,6 +230,7 @@ main {
   .section-info {
     padding: 0.5rem 0;
   }
+
   .text-content-arquitecto h1 {
     font-family: var(--font-primary);
     color: var(--color-secondary);
@@ -245,4 +238,3 @@ main {
     font-weight: 200;
   }
 }
-

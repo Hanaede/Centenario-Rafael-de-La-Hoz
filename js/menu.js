@@ -5,11 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   menuToggle.addEventListener('click', () => {
       nav.classList.toggle('show');
       menuToggle.classList.toggle('active');
-      // Cambiar el ícono cuando el menú está abierto/cerrado
       menuToggle.innerHTML = nav.classList.contains('show') ? '✕' : '☰';
   });
 
-  // Cerrar el menú al hacer clic en un enlace
   const navLinks = document.querySelectorAll('nav a');
   navLinks.forEach(link => {
       link.addEventListener('click', () => {

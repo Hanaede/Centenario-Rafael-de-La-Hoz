@@ -3,7 +3,7 @@
 
 /* Variables */
 :root {
-  --color-primary: #325566;  
+  --color-primary: #325566;
   --color-secondary: #dad2c5;
   --color-text: #333333;
   --color-text-light: #FFFFFF;
@@ -39,12 +39,10 @@ body {
   width: 250px;
 }
 
-
 nav {
   font-weight: 500;
   font-size: 1rem;
   margin-right: 7rem;
-
 }
 
 nav ul {
