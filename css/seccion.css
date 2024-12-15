@@ -165,7 +165,6 @@ nav a:hover {
   height: 100%;
   cursor: pointer;
 }
-
 .audio-button label {
   font-family: var(--font-primary);
   display: flex;
@@ -222,9 +221,7 @@ nav a:hover {
     font-size: 2.5rem;
   }
 
-  .audio-controls {
-    justify-content: left;
-  }
+
 
   .header {
     flex-direction: column;
