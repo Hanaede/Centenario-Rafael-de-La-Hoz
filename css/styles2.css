@@ -86,12 +86,11 @@ main {
 }
 
 .content-section {
-  padding: 2rem 2rem 2rem 4rem;
+  padding: 2rem;
 }
 
 /* Text Content */
 .text-content-arquitecto {
-  padding: 1rem;
   flex: 1.5;
 }
 
@@ -186,7 +185,9 @@ main {
   .menu-toggle {
     display: block;
   }
-
+  .text-content-arquitecto {
+    padding: 1rem;
+  }
   nav {
     position: fixed;
     top: 0;
