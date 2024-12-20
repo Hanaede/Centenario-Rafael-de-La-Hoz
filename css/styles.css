@@ -551,3 +551,10 @@ nav a:hover {
   font-size: 1.17em;
   font-weight: 200;
 }
+
+.agradecimientos {
+  display: flex;
+  padding: 2rem;
+  margin: -2rem auto 0;
+  align-items: center;
+}
